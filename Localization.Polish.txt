@@ -1,0 +1,577 @@
+.,Polish
+UIScenarioTxt.uitext,"Opadasz na krzesło pozbawiony energii. Śledztwo które prowadzisz wyssało z ciebie wszelkie siły. Dniami i nocami studiujesz dowody próbując znaleźć sprawcę zabójstwa twojego partnera. Niestety wydaje się, że utknąłeś w martwym punkcie. \n\n Nagle budzi cię odgłos szurania po podłodze. Pod drzwi twojego biura ktoś przed chwilą wsunął małą kopertę. Pośpiesznie otwierasz drzwi, ale nikogo tam już nie ma. Otwierasz kopertę i czytasz list: \n\n<i>""Kolekcjoner mieszkający w centrum miasta może mieć przedmiot, którego szukasz.""</i>\n\n Ten list to przełomem w śledztwie, tego właśnie potrzebujesz. Twój partner został dźgnięty nożem, ale ostrza nigdy nie odnaleziono. Być może zabójca sprzedał go u kolekcjonera, by zatrzeć za sobą ślady. Zbierasz swoje rzeczy i wychodzisz. "
+UIButtonTxt.uitext,{qst:Continue}
+quest.name,Cień przeszłości
+quest.description,Trop dotyczący tajemniczego morderstwa twojego partnera doprowadził cię do domu kolekcjonera przedmiotów i jego sklepu. Szukasz informacji na temat każdego, kto próbował sprzedać podejrzany nóż.
+EventPlaceStoreDoor.text,Drzwi w dole ulicy prowadzą do sklepu. Prawdopodobnie jest zamknięty. Masz nadzieję, że będziesz w stanie przekonać kolekcjonera, żeby pozwolił ci się rozejrzeć. Umieść żeton Eksploracji, jak wskazano.
+EventPlaceStoreDoor.button1,{qst:Continue}
+EventPlaceFoyerTile.text,Drzwi otwierają się na małe foyer z piękną posadzką. Umieść {ffg:TILE_ENTRY_HALL_MAD20} i żetony ścian jak pokazano. Usuń wszystkie żetony Eksploracji prowadzące do tego miejsca.
+EventPlaceFoyerTile.button1,{qst:Continue}
+EventPlaceStartTile.text,Dom kolekcjonera znajduje się obok jego sklepu. Światła w sklepie są wyłączone, a miejsce jest zamknięte. Umieść {ffg:TILE_STREET_2_MAD20} i {ffg:TILE_STOREFRONT_MAD20}, jak wskazano.
+EventPlaceStartTile.button1,{qst:Continue}
+EventPlaceInvestigators.text,Wchodzisz na ulicę przed domem kolekcjonera. Umieść swoich Badaczy jak wskazano. Każdy Badacz otrzymuje 1 {clue} wskazówkę.
+EventPlaceInvestigators.button1,{qst:Continue}
+EventPlaceHouseDoor.text,Stoisz przed dużymi drzwiami wyrzeźbionymi w artystycznym stylu, na co wskazuje wyrzeźbiony herb rodzinny. Biznes musi kręcić się całkiem nieźle. Umieść żeton Eksploracji, jak wskazano.
+EventPlaceHouseDoor.button1,{qst:Continue}
+EventMaidAnswers.text,"Uderzasz głośno złotą kołatką w drzwi. Po chwili otwierają się powoli skrzypiąc, <i>""Tak? W czym mogę pomóc?""</i>, mówi starsza kobieta, która zerka przez uchylone drzwi. Wygląda na pokojówkę. Pytasz się, czy mógłbyś pomówić z właścicielem sklepu. <i>""Pan Cooper nie ma w domu w tym momencie""</i>, odpowiada. <i>""Może się pan z nim zobaczyć jutro rano podczas godzin pracy.""</i> \n\n Wykonaj test {influence}."
+EventMaidAnswers.button1,{qst:Continue}
+EventMaidReply.text,"Pokojówka nie uwierzyła w twoją historię. Przekonujesz ją, aby ponownie rozważyła twoją prośbę wsuwając kilka dolarów do jej ręki. (Badacze muszą wspólnie odrzucić 2 {clue} Wskazówki.)\n\n Jej paznokcie nerwowo zaczynają uderzać o drzwi, przygryzając swoją dorną wargę, <i>""Cóż... Zwykle tego nie robię, ale zrobię wyjątek ... tylko ten jeden raz""</i>, mówi, powoli uchylając drzwi i wykonując gest ręką zaprasza do środka."
+EventMaidReply.button1,{qst:Continue}
+EventStreetWeapon.text,Ogromny kosz na śmieci stoi przed sklepem. Wygląda na to, że nie był opróżniany już przez jakiś czas. Umieść żeton Przeszukania, jak wskazano.
+EventStreetWeapon.button1,{qst:Continue}
+TokenEnterHouse.text,Bogato zdobione drzwi prowadzą do domu kolekcjonera.
+TokenEnterHouse.button1,{action} Eksploruj
+EventMaidAgrees.text,"Paznokcie jej palców zaczynają nerwowo stukać w drzwi kiedy zaczyna gryźć dolną wargę, <i>""Cóż, zwykle tego nie robię, ale zrobię wyjątek… dla ciebie, tylko ten jeden raz.""</i>, mówi i powoli otwiera drzwi, gestem ręki zapraszając cię do środka."
+EventMaidAgrees.button1,{qst:Continue}
+EventPlaceMaid.button1,{qst:Continue}
+EventPlaceMaid.text,Pokojówka wita cię w drzwiach, ale wydaje się bardzo zdenerwowana swoją decyzją. Umieść żeton osoby Biała Kobieta, jak wskazano.
+EventPlaceCat.text,Mały kot perkalowy siedzi na krześle po lewej stronie. Umieść żeton osoby Kot, jak wskazano.
+EventPlaceCat.button1,{qst:Continue}
+EventPlaceFoyerDoors.text,Kilka drzwi prowadzi w głąb domu. Umieść żetony Eksploracji zgodnie ze wskazaniami.
+EventPlaceFoyerDoors.button1,{qst:Continue}
+EventExplorationMove.button1,{qst:Continue}
+EventExplorationMove.text,Możesz się przesunąć 1 pole w kierunku eksploracji.
+UIButtonTxt.button1,Button1
+UIFrame.button1,{qst:Continue}
+TokenStudyLocked.text,"Dwukolorowe drzwi z wygrawerowaną tabliczką z napisem: <i>""Gabinet p. Coopera""</i>."
+TokenStudyLocked.button1,{action} Eksploruj
+EventMaidStopsYou.text,"Kiedy sięgasz po klamkę słyszysz: <i>""Przepraszam!""</i>, głos odbija się echem po pomieszczeniu, <i>""nie mogę panu pozwolić chodzić po domu""</i>, mówi pokojówka zamiatająca hol, <i>""Proszę poczekać w salonie na pana Coopera. Wkrótce powinien wrócić.""</i> \n\n Pokojówka wraca do swojej pracy, ale czujesz że wciąż cię obserwuje kątem oka."
+EventMaidStopsYou.button1,{qst:Continue}
+TokenBedroomLocked.button1,{action} Eksploruj
+TokenBedroomLocked.text,Małe drzwi prowadzą w głąb domu.
+TokenLounge.text,Drzwi prowadzą do salonu. Słyszysz przez nie delikatny dźwięk muzyki.
+TokenLounge.button1,{action} Eksploruj
+EventPlaceLounge.text,Za drzwiami znajduje się duży otwarty pokój. Pokojówka poprosiła cię, żebyś tu poczekał do powrotu kolekcjonera. Być może teraz byłby dobry moment, żeby zacząć się rozglądać. Umieść {ffg:TILE_LOUNGE_MAD20} jak wskazano i usuń wszystkie żetony Eksploracji prowadzące do tego miejsca.
+EventPlaceLounge.button1,{qst:Continue}
+EventPlaceDiary.button1,{qst:Continue}
+EventPlacePicture.text,Widzisz portret na ścianie po drugiej stronie pokoju. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceDiary.text,Widzisz stos książek na stoliku. Umieść żeton Przeszukania, jak wskazano.
+EventPlacePicture.button1,{qst:Continue}
+EventCatMoves.text,Kiedy rozglądasz się po pokoju kot prześlizguje się pomiędzy twoimi nogami. Usuń żeton Kot.
+EventCatMoves.button1,{qst:Continue}
+EventPlaceCatLounge.button1,{qst:Continue}
+EventPlaceLibraryToken.text,Po drugiej stronie pokoju znajdują się drzwi, które prawdopodobnie prowadzą w głąb domu. Umieść żeton Eksploracji, jak wskazano.
+EventPlaceCatLounge.text,Kot krąży tam i z powrotem, ocierając się o drzwi po drugiej stronie pokoju. Umieść żeton Kot, jak wskazano.
+EventPlaceLibraryToken.button1,{qst:Continue}
+TokenCatFoyer.text,Kot siedzi cierpliwie na krześle, obserwując każdy twój ruch.
+TokenCatFoyer.button1,{action} Pogłaszcz kota
+EventCatRuns.button1,{qst:Continue}
+TokenMaid.text,Pokojówka patrzy na ciebie nerwowo czyszcząc pokój z kurzu.
+EventCatRuns.text,Powoli zbliżasz się do kotka, łagodnie go przywołujesz i wyciągasz rękę w jego kierunku. Nagle kot zeskakuje z krzesła i wybiega z pomieszczenia. Zyskujesz 1 {clue} wskazówkę, usuń żeton Kot.
+TokenMaid.button1,{action} Porozmawiaj z pokojówką
+EventMaidSpeak1.text,"Pokojówka odwraca się w twoim kierunku kontynuując odkurzanie, <i>""Proszę poczekać w salonie na końcu korytarza. Przepraszam, ale nie mam teraz czasu na rozmowę. Muszę skończyć sprzątać przed przybyciem Pana Coopera. Oczekuje on gości i będzie zdenerwowany, jeśli dom nie będzie posprzątany.""</i> Zyskujesz 1 {clue} wskazówkę."
+EventMaidSpeak1.button1,{qst:Continue}
+TokenBookCase.text,Przy ścianie stoi półka wypełniona starannie ułożonymi książkami.
+TokenBookCase.button1,{action} Przeszukaj
+TokenLargeShelf.text,Duża półka wydaje się wyróżniać spośród innych.
+TokenLargeShelf.button1,{action} Przeszukaj
+TokenLibrary.text,"Małe drzwi z grawerem <i>""Biblioteka""</i> prowadzą dalej w głąb posiadłości."
+TokenLibrary.button1,{action} Eksploruj
+EventPlaceLibrary.text,Drzwi otwierają się na ozdobną bibliotekę ze starannie ułożonymi książkami. Umieść {ffg:TILE_LIBRARY_MAD20} jak wskazano i usuń wszystkie żetony Eksploracji prowadzące do tego pomieszczenia.
+EventPlaceLibrary.button1,{qst:Continue}
+EventPlaceShelf.button1,{qst:Continue}
+EventPlaceLibraryBooks.text,Wzdłuż ściany stoi półka wypełniona starannie ułożonymi książkami. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceShelf.text,Duża półka wydaje się wyróżniać spośród innych. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceLibraryBooks.button1,{qst:Continue}
+EventBedRoomDoor.text,Drzwi po drugiej stronie pokoju prowadzą w głąb domu. Umieść żeton Eksploracji, jak wskazano.
+EventBedRoomDoor.button1,{qst:Continue}
+EventPlaceCatLibrary.button1,{qst:Continue}
+TokenCatLibrary.text,Kot myje się na jednym z wysokich regałów. Nawet jeśli kot pozwoliłby ci się pogłaskać nie zdołasz go dosięgnąć.
+EventPlaceCatLibrary.text,Spoglądając na małą bibliotekę, zauważasz że kot przebiega obok ciebie do pokoju. Przenieś żeton Kot z {ffg:TILE_LOUNGE_MAD20} do {ffg:TILE_LIBRARY_MAD20}, jak wskazano.
+TokenCatLibrary.button1,{qst:Continue}
+TokenBedroom.text,Małe drzwi prowadzą w głąb domu.
+TokenBedroom.button1,{action} Eksploruj
+EventSearchDresser.button1,{qst:Continue}
+EventSearchDresser.text,Przeszukujesz masywną szafę w poszukiwaniu czegokolwiek co może okazać się pomocne. Wykonaj test {observation}.
+TokenDresser.text,Masywna szafa na ubrania przyćmiewa inne meble w pokoju.
+TokenDresser.button1,{action} Przeszukaj
+EventBedroom.text,Drzwi prowadzą do małej, schludnej sypialni. Umieść {ffg:TILE_BEDROOM_1_MAD20} i żeton drzwi, jak wskazano. Usuń wszystkie żetony Eksploracji prowadzące do tego pokoju.
+EventBedroom.button1,{qst:Continue}
+EventPlaceDesk.text,Przedmioty są porozrzucane na małym biurku w rogu pokoju. Umieść Przedmiot powszechny Szczęśliwa papierośnica, jak wskazano.
+EventPlaceDesk.button1,{qst:Continue}
+EventPlaceStudyDoor.text,Drzwi obok łóżka prowadzą w głąb posiadłości. Umieść żeton Eksploracji, jak wskazano.
+EventPlaceStudyDoor.button1,{qst:Continue}
+EventCatMovesBed.button1,{qst:Continue}
+TokenCatBedroom.text,Kot drapie pazurami prześcieradło i głośno mruczy.
+EventCatMovesBed.text,Kot przebiega obok ciebie, skacze na łóżko i tuli się do prześcieradła. Przenieś żeton Kot z {ffg:TILE_LIBRARY_MAD20} do {ffg:TILE_BEDROOM_1_MAD20}, jak wskazano.
+TokenCatBedroom.button1,{action} Pogłaszcz kota
+TokenStudyExplore.text,Małe drzwi prowadzą dalej w głąb posiadłości.
+TokenStudyExplore.button1,{action} Eksploruj
+EventPlaceStudy.text,Drzwi otwierają się do gabinetu kolekcjonera. Umieść {ffg:TILE_STUDY_MAD20} jak wskazano i usuń wszystkie znaczniki Eksploracji prowadzące do tego pokoju.
+EventPlaceStudy.button1,{qst:Continue}
+EventCatHides.button1,{qst:Continue}
+EventFireplace.text,Na ścianie gabinetu żarzy się ozdobny kamienny kominek. Umieść żeton Przeszukania, jak wskazano.
+EventCatHides.text,Powoli podchodzisz do łóżka starając się nie przestraszyć kota, bezskutecznie. Kot skacze na podłogę i chowa się pod łóżkiem. Zyskujesz 1 {clue} wskazówkę, usuń żeton Kot.
+EventFireplace.button1,{qst:Continue}
+EventPlaceFuseSearch.text,Masywna rama na ścianie przy drzwiach przykuwa twoją uwagę. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceFuseSearch.button1,{qst:Continue}
+EventPlaceCatStudy.text,Kot wskakuje na okno przy biurku. Umieść żeton Kot, jak wskazano.
+EventPlaceCatStudy.button1,{qst:Continue}
+EventPlaceDresser.text,Duża szafa na ubrania stoi przy ścianie naprzeciw łóżka. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceDresser.button1,{qst:Continue}
+TokenStudyCat.text,Kot siedzi nieruchomo jak posąg. Jego sierść jest oświetlona przez delikatny blask księżycowego światła wpadającego przez okno.
+TokenStudyCat.button1,{action} Pogłaszcz kota
+EventPetCat.text,Sięgasz po kota spodziewając się, że ucieknie, ale ku twojemu zdziwieniu w końcu poddaje się twojemu uporowi i pozwala ci pogłaskać po głowie. Gdy odwracasz się z powrotem w stronę pokoju, kot cicho miauczy i niespodziewanie czmycha przez okno. Usuń żeton Kot.
+EventPetCat.button1,{qst:Continue}
+EventPlaceYard.text,Wyglądając przez okno, aby zobaczyć, gdzie poszedł kot, odkrywasz, że podwórko prowadzi na tył sklepu. Kot miauczy na ciebie po raz ostatni, zanim wbiega do lasu. Umieść kafelek {ffg:TILE_YARD_1_MAD20} jak wskazano.
+EventPlaceYard.button1,{qst:Continue}
+TokenFirepit.button1,{action} Przeszukaj
+EventPlaceFirepit.text,Na końcu kamiennej ścieżki znajduje się ognisko. Kilka przedmiotów zostało umieszczonych w dołku do spalenia. Umieść żeton Przeszukania, jak wskazano.
+TokenFirepit.text,Na końcu kamiennej ścieżki znajduje się ognisko. Kilka przedmiotów zostało umieszczonych w dołku do spalenia.
+EventPlaceFirepit.button1,{qst:Continue}
+EventPlaceStoreBackDoor.text,Zauważasz, że drzwi prowadzą do sklepu. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceStoreBackDoor.button1,{qst:Continue}
+EventPlaceWindowInteract.text,Być może możesz użyć okna, aby dostać się do sklepu. Umieść żeton Oddziaływania, jak wskazano.
+EventPlaceWindowInteract.button1,{qst:Continue}
+TokenWindow.text,Niestety, nie jesteś tak zwinny jak kot, więc będziesz potrzebował pomocy w dostaniu się przez okno. Badacz znajdujący się na tym samym polu co inny Badacz lub sąsiadującym z innym Badaczem po przeciwnej stronie okna może wejść przez okno.
+TokenWindow.button1,{action} Wejdź przez okno
+EventClimbThrough.text,Przedostajesz się na drogą stronę okna z pomocą swojego partnera. Umieść swojego Badacza na polu sąsiadującym z poprzednim miejscem połączonym z oknem.
+EventClimbThrough.button1,{qst:Continue}
+TokenCatLounge.button1,{action} Pogłaszcz kota
+TokenCatLounge.text,Kot krąży tam i z powrotem, ocierając się o drzwi.
+EventCatHidesLounge.text,Pochylasz się, by pogłaskać kota, ale ten szybko wbiega za kanapę. Gdy zwracasz się w stronę pokoju widzisz, że kot wraca do drzwi i ociera się o nie. Zyskujesz 1 {clue} wskazówkę.
+EventCatHidesLounge.button1,{qst:Continue}
+TokenOpenStore.text,Te drzwi mogą być twoją najlepszą szansą na dostanie się do sklepu kolekcjonera.
+TokenOpenStore.button1,{action} Eksploruj
+EventPryOpen.text,Drzwi do sklepu są zamknięte, ale możesz je otworzyć. Wykonaj test siłę; jeśli posiadasz Przedmiot powszechny Łom, wykonaj test {strength} + 2.
+EventPryOpen.button1,{qst:Continue}
+EventPryOpen.button2,Button2
+EventPryOpenPass.button1,{qst:Continue}
+EventPryOpenFail.text,Zapierasz się z całej siły, ale nie jesteś w stanie uzyskać wystarczającej dźwigni, aby otworzyć drzwi.
+EventPryOpenPass.text,Drzwi otwierają do sklepu wypełnionego imponującą kolekcją egzotycznych bibelotów i towarów.
+EventPryOpenFail.button1,{qst:Continue}
+TokenStreetWeapon.text,Stary wypełniony śmieciami kosz został ustawiony przed sklepem.
+TokenStreetWeapon.button1,{action} Przeszukaj
+EventSearchTrash.text,Przekopujesz się przez śmieci, szukając czegoś, co może być ważne dla twojego śledztwa. Wykonaj test {observation}.
+EventSearchTrash.button1,{qst:Continue}
+EventFoundCrowBar.text,Zatykasz nos przed okropnym zapachem i nurkujesz w nadziei znalezienia czegoś pożytecznego. Znajdujesz zardzewiały przedmiot, który może później okaże się pomocny. Zyskujesz Przedmiot powszechny Łom, odrzuć żeton przeszukania.
+EventFoundCrowBar.button1,{qst:Continue}
+EventTrashFail.text,Przekopujesz się przez śmieci, ale dajesz w końcu za wygraną okropnemu zapachowi. Prawdopodobnie i tak nie ma tam nic wartego uwagi.
+EventTrashFail.button1,{qst:Continue}
+TokenLoungeDiary.text,Mały stos książek jest starannie ułożony na stole.
+TokenLoungeDiary.button1,{action} Przeszukaj
+EventMedTextSearch.text,Przeglądasz książki, szukając czegoś ważnego. Wykonaj test {observation}.
+EventMedTextSearch.button1,{qst:Continue}
+EventMedTextPass.text,Podczas przeglądania stron zauważysz książkę, która może być użyteczna. Zyskujesz Przedmiot powszechny Podręcznik medyczny, odrzuć żeton przeszukania.
+EventMedTextPass.button1,{qst:Continue}
+EventMedTextFail.text,Patrzysz na kilka książek ułożonych na stole. Nic nie przykuwa twojej uwagi.
+EventMedTextFail.button1,{qst:Continue}
+TokenLoungePicture.text,Obraz w wymyślnej ramie wisi na ścianie.
+TokenLoungePicture.button1,{action} Przeszukaj
+EventViewPainting.button1,{qst:Continue}
+EventPictureFail.button1,{qst:Continue}
+EventPicturePass.text,Dobrze ubrany mężczyzna na obrazie to prawdopodobnie kolekcjoner. Patrzy na ciebie z surowym i zarazem pustym wyrazem twarzy. Wydaje się jakby śledził cię wzrokiem. Złoty amulet na jego szyi wydaje się wyróżniać, jakby nie był oryginalnie namalowany na obrazie, a dodany w późniejszym czasie. Okazuje się, że ten sam amulet znajduje się tuż pod obrazem w małej gablocie. Nie jesteś pewny jego funkcji, ale bierzesz go ze sobą, żeby go przebadać. \n\n Zyskujesz Unikalny przedmiot Pieczęć kultu oraz 1 {clue} Wskazówkę, a następnie odrzucasz ten żeton.
+EventPicturePass.button1,{qst:Continue}
+EventViewPainting.text,Przyglądasz się obrazowi przedstawiającego dobrze ubranego mężczyznę, szukając czegokolwiek co może się wyróżniać. Wykonaj test {observation}.
+EventPictureFail.text,Przyglądasz się obrazowi, ale nie znajdujesz niczego ciekawego.
+EventViewPainting.button2,{qst:Continue}
+EventMedTextSearch.button2,Button2
+EventSearchTrash.button2,Button2
+EventMoveShelf.text,Badając dużą półkę, zauważasz ślady na podłodze. Być może ciężki regał został wcześniej przesunięty. Wykonaj test siłę {strength}.
+EventMoveShelf.button1,{qst:Continue}
+EventMoveShelfPass.text,Pchasz ze wszystkich swych sił i udaje się przesunąć regał na tyle, aby odsłonić małą przestrzeń za nim używaną jako schowek. Ledwo udaje ci się wczołgać, ale przeszukując to miejsce masz nadzieję, że uda ci się znaleźć coś przydatnego. Nic nie przykuwa twojej uwagi. Kartony i skrzynie wydają się zawierać jedynie ceremonialne szaty i inne bibeloty. Zyskujesz 1 {clue} Wskazówkę. Usunąć ten żeton.
+EventMoveShelfPass.button1,{qst:Continue}
+TokenHideShelf.text,Mała przestrzeń powinna stanowić dobre miejsce, by się w niej ukryć w razie potrzeby. Aby ukryć osobę, musi ona znajdować się na przyległym polu do tego żetonu.
+TokenHideShelf.button1,{qst:Continue}
+EventHideAction.text,Umieść osobę poza planszą blisko tego żetonu. Wydarzenia mitów oraz Testy przerażenia nadal na ciebie oddziałują, jednak postać nie może być celem ataku potworów. Na początku kolejnej rundy umieść z powrotem postać w polu z żetonem Interakcji.
+EventHideAction.button1,{qst:Continue}
+EventPlaceHideInteract.text,Mała przestrzeń powinna stanowić dobre miejsce, by się w nim ukryć w razie potrzeby. Umieść żeton Interakcji, jak wskazano.
+EventPlaceHideInteract.button1,{qst:Continue}
+EventMoveShelf.button2,Button2
+EventMoveShelfFail.text,Przesuwasz półkę ze wszystkich swoich sił, ale wydaje się nie do ruszenia.
+EventMoveShelfFail.button1,{qst:Continue}
+EventFoundRifle.button1,{qst:Continue}
+EventCabinetHide.button1,{qst:Continue}
+EventFoundRifle.text,Wchodzisz do masywnej garderoby i przekopujesz się przez zawieszone w niej ubrania. Potykasz się o karabin schowany w tyle szafy. Zyskujesz Przedmiot powszechny Karabin i 1 {clue} Wskazówkę, a następnie odrzuć ten żeton.
+TokenCabinetHide.text,Masywna szafa powinna zapewnić wystarczającą osłonę, aby w razie potrzeby się w niej schować. Aby ukryć osobę umieść ją w tym samym polu co ten żeton. 
+EventCabinetHide.text,Masywna szafa powinna zapewnić wystarczającą osłonę, aby w razie potrzeby się w niej schować. Umieść żeton interakcji, jak wskazano.
+TokenCabinetHide.button1,{qst:Continue}
+EventSearchDresser.button2,Button2
+EventRifleFail.button1,{qst:Continue}
+TokenFirePlace.text,Na ścianie gabinetu rozciąga się dekoracyjny kamienny kominek.
+EventRifleFail.text,Przekopujesz się przez niekończący się rząd wiszących ubrań, ale nie możesz niczego znaleźć.
+TokenFirePlace.button1,{action} Przeszukaj
+EventFireOut.text,Przeglądasz przedmioty na stojące na kominku, ale nie widzisz nic interesującego. Palenisko już dawno wygasło. Wygląda na to, że nie kominek nie był używany przez dłuższy czas. Zyskujesz 1 {clue} Wskazówkę, odrzuć żeton przeszukania.
+EventFireOut.button1,{qst:Continue}
+EventFindOldJournel.button1,{qst:Continue}
+TokenFusebox.text,Masywny obraz na ścianie wyróżnia się od reszty pomieszczenia.
+EventFindOldJournel.text,Rzędy książek pokryte są cienką warstwą kurzu, z wyjątkiem jednego. Zyskujesz Unikalny przedmiot Stary dziennik, odrzuć żeton przeszukania. Możesz wchodzić w interakcję z przedmiotem w menu ekwipunku.
+TokenFusebox.button1,{action} Przeszukaj
+EventSearchPainting.text,Patrzysz na obraz, który wydaje się nie pasować do reszty pomieszczenia. Wykonaj test {observation}.
+EventSearchPainting.button1,{qst:Continue}
+EventFindFuseBox.text,Patrząc na obraz, zauważysz zawias w rogu potężnej ramy. Chwytasz za ramę, pociągasz za nią i odkrywasz ukrytą skrzynkę bezpieczników. Zyskujesz 1 {clue} wskazówkę, odrzuć żeton przeszukania.
+EventFindFuseBox.button1,{qst:Continue}
+TokenFuseBoxInteract.text,Skrzynka bezpieczników jest ukryta za dziwnym obrazem.
+TokenFuseBoxInteract.button1,{action} Odłącz bezpieczniki
+EventPlaceDarkness.text,Wyciągasz bezpieczniki ze skrzynki powijając cały dom w ciemności. Umieść Ciemność na każdym wskazanym polu, a następnie usuń ten żeton.
+EventPlaceDarkness.button1,{qst:Continue}
+EventPlaceFuseboxInteract.text,Skrzynka bezpieczników jest ukryta za dziwnym obrazem. Umieść żeton Interakcji, jak wskazano.
+EventPlaceFuseboxInteract.button1,{qst:Continue}
+EventSearchPainting.button2,Button2
+EventFuseboxFail.text,Patrzysz na dziwny obraz, ale nie możesz znaleźć niczego istotnego.
+EventFuseboxFail.button1,{qst:Continue}
+EventFind2x4.text,Długa drewniana deska została wrzucona do spalenia. Może okazać się przydatna. Zdobywasz Przedmiot powszechny 2x4 Belka, odrzuć żeton przeszukania. Przedmiot powszechny 2x4 Belka działa zgodnie z normalnymi zasadami, z tym wyjątkiem, że nie można go zniszczyć. Jeśli potwór przełamie barykadę, umieść Przedmiot powszechny 2x4 Belka na polu sąsiadującym z drzwiami.
+EventFind2x4.button1,{qst:Continue}
+TokenTrapDoor.text,Przedmioty są starannie ułożone na półkach za ladą.
+TokenTrapDoor.button1,{action} Przeszukaj
+EventPlacePath.text,Przedmioty są starannie ułożone na półkach za ladą. Umieść żeton Przeszukania, jak wskazano.
+EventPlacePath.button1,{qst:Continue}
+EventPlaceCrystalBall.text,Na wystawie sklepowej umieszczono wartościową kolekcję. Umieść żeton Przeszukania, jak wskazano.
+EventPlaceCrystalBall.button1,{qst:Continue}
+EventAttemptPuzzle.text,Gdy patrzysz na przedmioty na półce, zauważysz dźwignię, ale nie możesz jej pociągnąć. Spróbuj rozwiązać łamigłówkę, używając swojej {strength}.
+PuzzlePath.button1,Zakończ
+EventAttemptPuzzle.button1,{qst:Continue}
+EventOpenPath.text,Gdy już wszystko jest w należytym porządku, dźwignia porusza się swobodnie, otwierając Tajne przejście prowadzące z powrotem do domu. Usuń ten żeton i umieść żeton Tajne Przejście, jak wskazano.
+EventOpenPath.button1,{qst:Continue}
+EventPlacePath1.text,Ścieżka wydaje się prowadzić cię z powrotem do Gabinetu. Umieść żeton Tajne Przejście, jak wskazano.
+EventPlacePath1.button1,{qst:Continue}
+EventMaidAttacks.text,"Nagle pokojówka wyważa drzwi. \n\n Przesuń żeton Biała Kobieta, jak wskazano.\n\n <i>""Wiedziałam, że nie powinnam ci ufać!""<i>, krzyczy zatrzaskując za sobą drzwi. Sięga po nożyczki na biurku i szarżuje w kierunku najbliższego Badacza.\n\n Wykonaj test {strength}."
+EventMaidAttacks.button1,{qst:Continue}
+EventMaidAttacks.button2,Porażka
+EventStopMaid.button1,{qst:Continue}
+EventSpawnCultist.button1,{qst:Continue}
+EventStopMaid.text,Pokojówka rzuca się na ciebie z nożyczkami, ale udaje ci się złapać ją za nadgarstek i powstrzymać atak. Podczas szamotaniny zrzucasz z siebie pokojówkę. Gdy upada na podłogę, jej głowa uderza w róg stolika i traci przytomność. Przenieś żeton osoby Biała Kobieta na swoje pole. Żeton osoby Biała Kobieta może zostać pchnięty na normalnych zasadach o dobrowolnym przesuwaniu.
+EventSpawnCultist.text,Pokojówka rzuca się na ciebie, przewracając cię na ziemię. Wściekle wielokrotnie uderza cię nożyczkami. Otrzymujesz 1 kartę Obrażeń i 1 kartę Przerażenia.
+SpawnMaidCultist.button1,{qst:Continue}
+EventDistractWithLights.text,"Mężczyźni otrząsają się z transu, gdy gasną światła, <i>""Co się stało ze światłem?""</i>, mówi jeden z nich, próbując odnaleźć się w ciemności."
+EventDefeatMaid.text,"Pokojówka upada na ziemię ... martwa. Myślisz sobie <i>""Co ja zrobiłem?""</i>. Otrzymujesz 1 zakrytą kartę Przerażenia ({will} zapobiega). Gdy dochodzisz do siebie, zdajesz sobie sprawę, że zrobiłeś to w samoobronie. Umieść żeton osoby Biała Kobieta na polu, na którym Kultysta został pokonany, aby oznaczyć położenie jej ciała. Żeton osoby Biała Kobieta może zostać pchnięty przy użyciu normalnych zasad dla dobrowolnego celu."
+EventDefeatMaid.button1,{qst:Continue}
+EventGirlOut.button1,{action} Ukryj Badacza
+EventHideMaid.text,Wiedząc, że kolekcjoner może wkrótce wrócić, decydujesz się zakryć za sobą ślady. Usuń żeton osoby Biała Kobieta.
+EventHideMaid.button1,{qst:Continue}
+EventStudyJournal.button1,{action} Przeczytaj
+EventStudyJournal.button2,Anuluj
+EventEntry1.text,"Tytuł na stronie brzmi <i>""Sztylet Dagona""</i>. <i>""Od lat poszukuję tego cennego ostrza. Świętego sztyletu o niesamowitej mocy, o którym mówi się, że jego siła rośnie wraz z każdą z jego ofiar. Żądza krwi zaklęta w ostrzu doprowadziła pierwotnego przywódcę kultu, Kapłana Dagona, do szaleństwa i obróciła go przeciw niemu, gdy ten odebrał swoje życie. Niektórzy wierzą, że to nic innego jak mit, ale jeśli plotki są prawdziwe. Kupiec w mieście obiecał mi, że może go dla mnie znaleźć, jeśli będę gotów zapłacić odpowiednią cenę, ma to jak w banku.""</i> Zyskujesz 1 {clue} wskazówkę."
+EventEntry1.button1,{qst:Continue}
+EventRead.button1,Button1
+EventEntry2.button1,{qst:Continue}
+EventEntry3.button1,{qst:Continue}
+EventNoMore.text,Nie ma dalszych wpisów, które wydają się być użyteczne.
+EventNoMore.button1,{qst:Continue}
+EventEntry3.text,"<i>""Nie mogę uwierzyć w to co właśnie zobaczyłem! Kupiec miał rację, przedmioty są ze sobą powiązane. Sztylet i amulet reagują ze sobą. Nigdy wcześniej czegoś takiego nie widziałem! Amulet potęguje moc ostrza, a ostrze żywi się mocą amuletu! Razem ich moc jest jeszcze większa! Na szczęście kupiec odkrył, jak je kontrolować, pieczętując amulet znanym wzorcem.""</i> Zyskujesz 1 {clue} Wskazówkę."
+EventEntry2.text,"<i>""Otrzymałem dzisiaj list od kupca. Twierdzi, że znalazł sztylet, którego szukam, ale jego cena prawie się potroiła. To całkowicie absurdalne! Jednak jego notatka wspominała jeszcze o jakimś amulecie, który dostarczy razem z ostrzem ale niewiele więcej mówi na ten temat. Po jakie licho wciska mi ten amulet? Mam zamiar zadać mu to pytanie, kiedy spotkam się z nim jutro.""</i> \n\n Zyskujesz 1 {clue} Wskazówkę."
+EventCultSigil.text,Wygląda na to, że amulet można jakoś odblokować. Badacz z Unikalnym przedmiotem Pieczęć Kultu może wchodzić z nim interakcję w Ekwipunku w aplikacji.
+EventCultSigil.button1,{qst:Continue}
+EventamuletInteract.text,To musi być amulet, o którym czytałeś w czasopiśmie. Badacz posiadający Unikatowy przedmiot Pieczęci Kultu może wchodzić z nim w interakcję w Ekwipunku w aplikacji.
+EventamuletInteract.button1,{qst:Continue}
+EventJournel.button1,Button1
+EventAmuletStudy.text,Przyglądasz się amuletowi szukając sposobu na jego otwarcie. Wykonaj test {observation}.
+EventAmuletStudy.button1,{qst:Continue}
+EventAmuletPass.text,Patrząc na amulet, zauważysz cztery kolorowe klejnoty na jego odwrocie. Na pierwszy rzut oka wyglądają na zdobienia, ale gdy przecierasz je palcami, zauważysz, że każdy z nich wydaje słyszalny dźwięk kliknięcia. Być może w ten sposób możesz odblokować amulet. Gdybyś tylko miał poprawną kombinację. Na dole amuletu znajduje się zielony klejnot, a za nim czerwony i niebieski klejnot w kolejności zgodnej z ruchem wskazówek zegara. W środku znajduje się duży purpurowy klejnot. Zdobywasz 1 {clue} wskazówkę.
+EventAmuletPass.button1,{action} Otwórz amulet
+EventAmuletStudy.button2,Button2
+EventAmuletFail.text,Oglądasz amulet od góry do dołu ale nie możesz znaleźć sposobu, aby go otworzyć.
+EventAmuletFail.button1,{qst:Continue}
+EventAmuletOptions.button1,Button1
+EventUnlockSigil.text,Znalazłeś klejnoty z tyłu amuletu. Być może możesz go odblokować, jeśli znajdziesz odpowiednią kombinację. Badacz posiadający Unikatowy Przedmiot Pieczęci Kultu może podjąć się próby jego odblokowania.
+EventUnlockSigil.button1,{action} Otwórz amulet
+EventCombination.text,Kolekcjoner wspomniał o jakimś wzorze. Może dzięki niemu mógłbym otworzyć amulet. Na dole amuletu znajduje się zielony klejnot, a za nim czerwony i niebieski klejnot w kolejności zgodnej z ruchem wskazówek zegara. W środku znajduje się duży purpurowy klejnot.
+EventCombination.button1,Niebieski klejnot
+EventBlueWrong.button1,Button1
+EventBlueCorrect.button1,Button1
+EventCombination.button2,Czerwony klejnot
+EventRedCorrect.button1,Button1
+EventRedWrong.button1,Button1
+EventSigilUnlocked.text,Wraz z ostatnim kliknięciem amulet powoli się otwiera. Dziwna aura wypływa z urządzenia. Gdy wpatrujesz się w amulet i próbujesz zrozumieć co widzisz, słyszysz echa głosów zanikających w mrokach nocy.
+EventSigilUnlocked.button1,{qst:Continue}
+EventSigilFailed.button1,{qst:Continue}
+EventCombination.button3,Zielony klejnot
+EventComboFail1.text,Twój umysł zalewany jest obrazami, w których dźgasz inną osobę. Jej krew rozpryskuje się na twojej twarzy, gdy nie mogąc się powstrzymać nieprzerwanie dźgasz jej pierś sztyletem. Gdy ciało opada na podłogę, martwe i zakrwawione, zdajesz sobie sprawę, że to ty sam. Otrzymujesz 1 kartę Przerażenia.
+EventCombination.button4,Purpurowy klejnot
+EventGreenCorrect.button1,Button1
+EventGreenFail.button1,Button1
+EventPurpleCorrect.button1,Button1
+EventPurpleWrong.button1,Button1
+EventUnlockSigil.button2,Anuluj
+EventAmuletPass.button2,Anuluj
+EventContinueReading.button1,{action} Kontynuuj czytanie
+EventContinueReading.button2,Anuluj
+EventContinueReading.text,Jest więcej wpisów do przeczytania.
+EventComboFail1.button1,{qst:Continue}
+EventComboFail2.text,Amulet zaczyna reagować na twoje próby otwarcia. Szumi i grzechocze, gdy nagle wysyła przez twoje ciało piorunujący impuls elektryczny, który z przeraźliwym bólem rzuca cię na kolana. Otrzymujesz 1 kartę Obrażeń.
+EventComboFail2.button1,{qst:Continue}
+EventSetAnswerMain.button1,Button1
+EventSetAnswer2.button1,Button1
+EventSetAnswer1.button1,Button1
+EventSetAnswer3.button1,Button1
+EventSetAnswer4.button1,Button1
+EventRandomComboSet.button1,Button1
+EventGroupArrive.text,Słyszysz dźwięki rozmowy, a następnie trzask drzwi. Umieść osobę Czerwony Człowiek, jak wskazano; to kolekcjoner. Wygląda na to, że wrócił z grupką ludzi. Umieść żetony osób Żółty Człowiek, Purpurowy Człowiek i Pomarańczowa Kobieta, jak wskazano.
+EventGroupArrive.button1,{qst:Continue}
+EventGroupMoves.text,"Grupa przenosi się do salonu, ciągnąc za sobą dziewczynę, która błaga mężczyzn, aby ją puścili. \n\n Umieść żeton osoby Pomarańczowa Kobieta, jak wskazano, to Cynthia Hensen. \n\n <i>""Zamknij się!""</i>, kolekcjoner krzyczy i szarpie rękę Cynthii, przyciągając ją bliżej, <i>""Twoje życie w końcu nabierze jakiegokolwiek sensu. Posłużysz celowi daleko wykraczającemu poza to, co możesz zrozumieć.""</i> Mężczyźni przywiązują ją do stołu przygotowując się do odprawienia jakiegoś rytuału. Przesuń żetony osób Czerwonego, Żółtego i Fioletowego Mężczyzny, jak wskazano."
+EventGroupMoves.button1,{qst:Continue}
+EventLightsOut.text,"<i>""Czy ktoś mógłby włączyć światło, żebym cokolwiek widział?""</i>, mówi kolekcjoner, próbując zacisnąć węzły. Jego pomocnik kilkukrotnie przełącza włącznik próbując włączyć światło, ale nic się nie dzieje. <i>""Musimy dowiedzieć się, co się stało ze światłem.""</i>"
+EventLightsOut.button1,{qst:Continue}
+EventRestoreLights.button1,{qst:Continue}
+EventMaidSearch.button1,{qst:Continue}
+EventRestoreLights.text,Mężczyźni ruszają w mroku, by przywrócić światło. Usuń żetony osób Czerwonego, Żółtego i Fioletowego Mężczyzny.
+EventMaidFound.text,"Kolekcjoner wraca z powrotem do salonu. <i>""Jest tu ktoś jeszcze!""</i>, mówi i gorączkowo chwyta dwóch pozostałych mężczyzn. <i>""Znalazłem Mildred leżącą na ziemi!""</i>, krzyczy i wyciąga z płaszcza sztylet. <i>""Znajdźcie tego kto jest za to odpowiedzialny odpowiedzialny!!""</i>, rozkazuje pozostałym, <i>""Sam dokończę składanie ofiary""</i>. Umieść żeton osoby Czerwony Mężczyzna, jak wskazano."
+EventMaidSearch.text,"Kolekcjoner obchodzi dom, podczas gdy pozostali kończą zaplątywanie węzłów. <i>""Mildred? Gdzie jesteś?""</i> nawołuje pokojówkę przeczesując posiadłość. Obawiając się, że kolekcjoner może cię zobaczyć, pośpiesznie ukrywasz się w rogu pokoju mając nadzieję, że cię nie zauważy. Usuń żeton Czerwony Mężczyzna."
+EventMaidFound.button1,{qst:Continue}
+EventNotBothered.button1,{qst:Continue}
+EventNotBothered.text,"Kolekcjoner wraca po krótkim czasie, <i>""Musiała wyjść na wieczór, ale nie pozwólmy, by to przeszkodziło w naszych planach.""</i>. Kolekcjoner wyciąga sztylet z kurtki, <i>""Zacznijmy!""</i>. Mężczyźni zachowują się jakby byli w transie, gdy zaczynają recytować słowa rytuału. Umieść żeton osoby Czerwony Mężczyzna, jak wskazano."
+CustomMonsterCollectorPriest.info,-
+EventPriestActivations.text,Kolekcjoner zaatakuje Badacza znajdującego się na tym samym polu. 
+CustomMonsterCollectorPriest.monstername,Kolekcjoner
+EventPriestActivations.button1,Kolekcjoner atakuje.
+EventNoHero.text,Kolekcjoner intonuje słowa rytuału, machając ostrzem w powietrzu, rysując symbole i ignorując błagalne krzyki o życie Cynthii. 
+EventNoHero.button1,{qst:Continue}
+EventGirlDied.button1,{qst:Continue}
+SpawnCollector1.text,Kolekcjoner zaczyna recytować dziwną pieśń, skupiając się na rytuale. Umieść Kapłana Dagona, jak wskazano, i usuń żeton osoby Czerwonego Mężczyzny.
+EventGirlDied.text,Trzymane obiema rękami ostrze leci w dół i ląduje z impetem w piersi biednej dziewczyny. Cynthia łapczywie łapie powietrze, ale jej rany okazują się zbyt poważne. Z nożem głęboko w piersi jej krzyki milkną, a ciało wiotczeje.
+SpawnCollector1.button1,{qst:Continue}
+SpawnCultist1.button1,{qst:Continue}
+SpawnCultist2.text,Drugi mężczyzna podąża za intruzami. Umieść Kultystę, jak wskazano, i usuń żeton osoby Fioletowy Mężczyzna.
+SpawnCultist1.text,"<i>""Musimy znaleźć intruza!""</i>, mówi jeden z mężczyzn rozglądając się po pokoju w poszukiwaniu czegoś co może służyć za broń. Umieść Kultystę, jak wskazano, usuń żeton osoby Żółty Mężczyzna."
+SpawnCultist2.button1,{qst:Continue}
+SpawnCollector2.text,"Mężczyzna znajdują otwartą skrzynkę bezpieczników z wyjętymi bezpiecznikami. <i>""Ktoś tu jest!”</i>, mówi kolekcjoner. Umieść Kapłana Dagona, jak wskazano."
+SpawnCollector2.button1,{qst:Continue}
+SpawnCultist3.text,Umieść Kultystę, jak wskazano.
+SpawnCultist3.button1,{qst:Continue}
+SpawnCultist4.text,Umieść Kultystę, jak wskazano.
+SpawnCultist4.button1,{qst:Continue}
+EventPriestActivations.button2,Kolekcjoner nie może zaatakować
+TokenCollector2.button1,"{action} <i>""Przestań</i>!"""
+EventStopCollector.button1,{qst:Continue}
+EventStopCollector.text,"Krzyczysz tak głośno, jak potrafisz, starając się wyciągać ich z transu, <i>""Zatrzymaj to szaleństwo!""</i>, krzyczy Cynthia, <i>""Błagam, pomóż mi!""</i>. <i>""Powstrzymajcie ich!""<i>, kolekcjoner wrzeszczy gniewnie do pomagierów, gdy jego uwaga wraca do dziewczyny."
+TokenCollector2.text,Kolekcjoner stoi nad biedną dziewczyną z wyciągniętym ostrzem, recytując słowa rytuału.
+EventMythosRitual.button1,{qst:Continue}
+EventMythosRitual.text,Kolekcjoner intonuje kolejne słowa rytuału, machając ostrzem w powietrzu, rysując symbole i ignorując Cynthię, która błaga o darowanie jej życia.
+SpawnCultist5.text,"<i>""Nie pozwólcie im zatrzymać rytuału!""</i>, mówi mężczyzna, wskazując na ciebie. Umieść Kultystę i usuń żeton osoby Żółtego mężczyzny."
+SpawnCultist5.button1,{qst:Continue}
+SpawnSpawn6.text,Drugi mężczyzna podąża za tobą próbując cię powstrzymać przed ingerencją w przebieg rytuału. Umieść Kultystę, jak wskazano i usuń osobę Fioletowy Mężczyzna.
+SpawnSpawn6.button1,{qst:Continue}
+SpawnMaidCultist.text,Odpychasz pokojówkę na tyle, by stanąć na nogi. Próbując złapać chwilę oddechu, spostrzegasz, że służąca ponownie biegnie po ciebie, tym razem trzymając w rękach nóż. Usuń żeton osoby Białej Kobiety i umieść Kultystę na polu, na którym się znajdujesz.
+EventDistractWithLights.button1,{qst:Continue}
+EventAttacksHero.button1,{qst:Continue}
+EventAttacksHero.text,Próbujesz pomóc Cynthii, ale kolekcjoner odwraca się w twoim kierunku. Wymachuje ostrzem w powietrzu z wielką furią ({agility}; 2). Jeśli zdałeś, udało ci się uniknąć każdego nadchodzącego ciosu ostrzem. Jeśli nie zdałeś, kolekcjonerowi udaje się zadać poważny cios, który powoduje głęboką ranę na twojej ręce. Otrzymujesz 2 karty Obrażeń i stan Oszołomiony, a następnie kolekcjoner odrzuca cię o 1 pole.
+EventGirlOut.button2,{action} Ukryj dziewczynę
+EventHideGirl.text,Praktycznie sparaliżowana strachem Cynthia, potyka się uciekając, ale udaje jej się ukryć. Usuń żeton osoby Pomarańczowa Kobieta.
+EventHideGirl.button1,{qst:Continue}
+EventGirlOut.button3,Anuluj
+EventMaidOut.button1,{action} Ukryj Badacza
+EventMaidOut.button2,{action} Ukryj pokojówkę
+EventMaidOut.button3,Anuluj
+EventNoGirlNoMaid.button1,{action} Ukryj Badacza
+EventNoGirlNoMaid.button2,Anuluj
+EventNoGirlNoMaid.text,Kogo chcesz ukryć?
+EventMaidOut.text,Kogo chcesz ukryć?
+EventGirlOut.text,Kogo chcesz ukryć?
+EventFoundMaidAlive.button1,{qst:Continue}
+EventFoundMaidAlive.text,"Kolekcjoner wraca do salonu, <i>""Nie jesteśmy sami!""</i>, mówi gdy gorączkowo chwyta pozostałych dwóch mężczyzn. <i>""Znalazłem Mildred! Powiedziała, że ktoś tu jest!""</i>, krzyczy wyciągając z płaszcza sztylet. <i>""Znajdźcie ich, natychmiast!""</i>, rozkazuje pomagierom, <i>""Ja w między czasie rozpocznę rytuał ofiary.""</i> Umieść żeton osoby Czerwony Mężczyzna, jak wskazano."
+TokenGirl2.text,Biedna dziewczyna jest związana na stole bojąc się o swoje życie.
+TokenGirl2.button1,{action} Uratuj
+EventFreeGirlTest.button1,{qst:Continue}
+EventFreeGirlTest.button2,Porażka
+EventFreeGirlFail.button1,{qst:Continue}
+EventFreeGirl.text,"Udaje ci się znaleźć koniec węzła i pośpiesznie rozplątujesz dziewczynę. Cynthia zeskakuje ze stołu i obejmuje cię ramionami <i>""Dziękuję...! Bardzo cię dziękuję za uratowanie mnie!""</i> Żeton osoby Pomarańczowa Kobieta może zostać pchnięty przy użyciu normalnych zasad dobrowolnego przesuwania."
+EventFreeGirl.button1,{qst:Continue}
+EventFreeGirlTest.text,Szarpiesz i ciągniesz za węzły próbując je rozplątać. Wykonaj test {observation}.
+EventFreeGirlFail.text,Masz problem ze znalezieniem sposobu na rozluźnienie więzów.
+SpawnCreature.text,Zakończenie ofiary skutkuje pojawieniem się silnego pola elektrycznego wokół ciała dziewczyny, które okazuje się tworzyć okno do innego świat. Z jej ramienia wystrzeliwuje pazur, a drugi przebija jej żołądek. Przerażające stworzenie powoli rozrywa jej ciało, gdy wchodzi do naszego świata. Umieść Gwiezdny Pomiot na tym samym polu, co żeton osoby Pomarańczowa Kobieta, a następnie usuń ten żeton.
+SpawnCreature.button1,{qst:Continue}
+EventEatCollector.text,"Kolekcjoner podchodzi do stworzenia z uniesionymi rękami, <i>""Cieszymy się, że przybyłeś!""</i>. Gdy chwali bestię, ta chwyta go i unosi w powietrze. Kreatura wyrywa członki kolekcjonera i pożera je, podczas gdy jego ofiara agonalnie krzyczy z bólu. Nie jesteś w stanie w stanie znieść widoku krwi i dźwięków miażdżonych kości. Otrzymujesz 3 karty Przerażenia (Test: {will} zapobiega), a następnie odkrywasz wszystkie karty Przerażenia. Usuń żeton kolekcjonera z planszy."
+EventEatCollector.button1,{qst:Continue}
+EventPriestDied.text,Wraz z ostatnim ciosem kolekcjoner upada na ziemię, upuszczając sztylet. Sztylet przesuwa się po podłodze, zatrzymując się przy twojej stopie. Przychodzi cię dziwna chęć, aby wziąć go do ręki. Weź Przedmiot powszechny Sztylet rytualny. Ten przedmiot można przekazać, ale nie można go upuścić.
+EventPriestDied.button1,{qst:Continue}
+EventPriestActivationMain.button1,{qst:Continue}
+EventPriestLogicLightsOut.button1,Odpraw rytuał
+EventPriestLogicLightsOut.text,Kolekcjoner porusza się do 2 pól, aby znajdować się w tym samym polu co dziewczyna, aby kontynuować rytuał.
+EventPriestLogicLightsOut.button2,Nie może być na tym samym polu
+EventCollectorMoves2.text,kolekcjoner porusza się o 2 pola w kierunku dziewczyny, a następnie atakuje najbliższego Badacza w zasięgu.
+EventCollectorMoves2.button1,Kolekcjoner atakuje
+EventCollectorMoves2.button2,Nie można zaatakować
+EventCollectorAttacks2.button1,{qst:Continue}
+EventCollectorAttacks3.button1,{qst:Continue}
+EventCollectorAttacks2.text,Kolekcjoner cię odpycha, próbując wrócić do Cynthii. Zaczyna podnosić dziwne przedmioty z całego pokoju i rzuca je w Twoją stronę z zaskakującą siłą (Test: {agility}; 2). Jeśli zdałeś test, jesteś w stanie uchylić się przed nadlatującymi przedmiotami, które świszczą przelatując obok twojej głowy. Jeśli nie zdałeś testu, próbujesz uniknąć ciosu, ale jeden z przedmiotów trafia cię bezpośrednio w głowę. Otrzymujesz 2 karty Obrażeń i stajesz się Oszołomiony.
+EventCollectorAttacks3.text,Kolekcjoner macha sztyletem, recytując słowa starożytnej tajemnej magii. Sztylet powoli zaczyna świecić jaśniej i jaśniej, zanim wyrzuca elektryczny pocisk w twoim kierunku (Test: {observation}; 2). Jeśli zdałeś test, pośpiesznie łapiesz i przytrzymujesz krzesło blokując nadchodzące zaklęcie. Jeśli nie zdałeś testu, pomimo szybkiej reakcji, nie udaje ci się znaleźć osłony, a ładunek elektryczny uderza w ciebie. Otrzymujesz 1 kartę Obrażeń i stajesz się ogłuszony.
+TokenPartner.text,Duch Williama Drake'a, twojego partnera, stoi w gabinecie z delikatną mgłą zakazującą jego formę.
+TokenPartner.button1,Porozmawiaj
+EventPlacePartner.text,Gdy głosy znikną, podnosisz wzrok znad amuletu i widzisz mglistą postać idącą przez dom. Postać wygląda jak ... twój martwy partner. Wygląda na to, że prowadzi cię do czegoś. Umieść żeton osoby Zielonego Mężczyzny, jak wskazano. To duch twojego martwego partnera, Williama Drake'a.
+EventPlacePartner.button1,{qst:Continue}
+EventSpeakToPartner.text,"Mglista postać zwraca się do ciebie i mówi: <i>""Bardzo ci dziękuję. Uwolniłeś mnie z tego piekła. Ale to jeszcze nie koniec. Musisz skończyć to co zacząłeś.""</i> jego aura pulsuje. "
+EventSpeakToPartner.button1,<i>{action} Jak zostałeś uwięziony?</i>
+EventSpeakToPartner.button2,{action} <i>Jak możemy to powstrzymać?</i>
+EventTrappedTalk.text,"<i>""Te przedmioty są demoniczne, są uosobieniem zła. Wzajemnie żywią się sobą. Ostrze zostało zaprojektowane, aby wchłaniać dusze ofiar, podczas gdy amulet je przechowuje. Kolekcjoner ukradł moją duszę tej noc na targu i używał jej do czynienia zła. Każda kolejna pochwycona dusza czyni je potężniejszymi. Lepiej sobie nie wyobrażać jak przerażające stworzenia byłby w stanie przyzwać.""</i>"
+EventTrappedTalk.button1,{qst:Continue}
+EventFire.text,Amulet potrzebuje źródła energii. Być może ogień mógłby naładować go na tyle, by go zniszczyć.
+EventHowStop.text,"<i>""Ta para przedmiotów współdziała, czyniąc się wzajemnie silniejszymi. Jedyne co może zniszczyć jedno, to drugie. Jeśli ostrze zostanie wypełnione energią, możesz zniszczyć amulet, a w efekcie oba zostaną zniszczone. Problem polega na tym, że uwolniłeś już moc amuletu. Będziesz musiał zastąpić ją jakimś innym źródłem energii. Ale muszę cię ostrzec. Ostrze ma własną wolę i będzie próbować cię powstrzymać. Nie pozwól mu na to!""</i>"
+EventHowStop.button1,{qst:Continue}
+EventSpeakToPartner.button3,Anuluj
+EventSpeak2.button1,{action} <i>Jak możemy to powstrzymać?</i>
+EventSpeak2.text,William próbuje ci pomóc po raz ostatni nim jego energia całkowicie wygaśnie.
+EventFire.button1,{qst:Continue}
+EventAbsorbEnergy.text,Wraz z pojawieniem się ognia możesz rozpocząć rytuał pochłaniający jego energię. Badacz posiadający Unikatowy Przedmiot Pieczęci Kultu może próbować naładować amulet.
+TokenFireInteract.button1,{qst:Continue}
+EventGhostFades.text,"Wypowiada swe ostatnie słowa, <i>""Do zobaczenia. Dziękuję.""</i> William powoli znika tuż przed tobą. Usuń żeton osoby Zielony Mężczyzna."
+EventGhostFades.button1,{qst:Continue}
+EventBladeAttacks.text,"Ogarnia cię dziwna potrzeba. Szepty w twojej głowie mówią <i>""Nie możesz ufać dziewczynie. Ona musi umrzeć!""</i>. Badacz trzymający Przedmiot powszechny Sztylet rytualny przesuwa się do 2 pól, aby znaleźć się w tym samym polu co dziewczyna i ją atakuje."
+EventBladeAttacks.button1,Zaatakuj kobietę
+EventBladeAttacks.button2,Nie można przemieścić się na wskazane pole
+EventBladeAttacksGirl.text,Szarżujesz w kierunku Cynthii, twoje oczy błyszczą, twój umysł jest bezradny, nie potrafi zatrzymać działania twojego ciała. Wbijasz w nią sztylet, próbując ją zabić. Ostrze wchodzi głęboko w jej ciało, ale twoje uderzenie nie jest śmiertelne. Jednak widząc jej rany podejrzewasz, że długo nie pożyje...
+EventBladeAttacksGirl.button1,{qst:Continue}
+EventBladeMoveToPartner.text,Szał ogarnia twoje ciało, mając przeczucie, że pozostali Badacze knują przeciwko tobie. Badacz trzymający Przedmiot powszechny Sztylet rytualny porusza się do 2 pól, aby znaleźć się na tym samym polu co inny Badacz i atakuje go.
+EventBladeMoveToPartner.button1,Zaatakuj innego Badacza
+EventBladeMoveToPartner.button2,Nie można przemieścić się na wskazane pole.
+EventAttackSelf.text,Moc sztyletu pochłania twoją wolę zmuszając cię do zadania sobie ciosu. Badacz trzymający Przedmiot powszechny Sztylet rytualny otrzymuje 2 karty Obrażeń ({will} zapobiega), a następnie wszyscy Badacze w zasięgu otrzymują 2 karty Przerażenia ({will} zapobiega).
+EventAttackSelf.button1,{qst:Continue}
+EventAttackFriend.button1,{qst:Continue}
+EventAttackFriend.text,"Pędzisz w stronę swojego przyjaciela, krzycząc: <i>""Jesteś zdrajcą!""</i>. Pozostali badacze wrzeszczą do ciebie <i>""Otrząśnij się z tego! Musisz walczyć z tym szaleństwem!""</i>. Twój cel otrzymuje 2 karty Obrażeń ({influence} zapobiega), a następnie wszyscy Badacze znajdujący się w zasięgu otrzymują 2 karty Przerażenia ({will} zapobiega)."
+EventStartFire.button1,{qst:Continue}
+EventFirePlaceMain.button1,{action} Zaprósz ogień
+EventStartFire.text,Bierzesz 2x4 Belka i wrzucasz ją do kominka. Wyciągasz zapałkę z papierośnicy, aby rozpalić ogień. Gdy upuszczasz zapałkę, ogień rozświetla pokój. Odrzuć Przedmiot powszechny 2x4 Belka i usuń żeton Ciemność z tego pokoju. Kominek działa teraz jako źródło światła.
+EventAbsorbEnergy.button1,{action} Napełnij amulet
+EventAttemptFill.button1,{qst:Continue}
+EventDestroyPair.text,Wierzysz, że z napełnionym energią amuletem możesz w końcu zniszczyć sztylet. Jest on jednak dowodem, po który tutaj przyszedłeś. Jeśli go zniszczysz, bezpowrotnie stracisz możliwość wskazania sprawcy morderstwa twojego partnera. Badacz niosący Przedmiot powszechny Sztylet rytualny i Unikatowy przedmiot Pieczęci kultu lub posiadający chociaż jeden z nich, a znajdujący na tym samym polu, co Badacz z drugim przedmiotem, może spróbować zniszczyć oba przedmioty.
+PuzzleFillAmulet.button2,Porażka
+PuzzleFillAmulet.button1,Zakończ
+EventFillFail.text,Recytujesz rytualne słowa najlepiej, jak tylko potrafisz, ale nic się nie dzieje.
+EventFillFail.button1,{qst:Continue}
+EventFillPass.text,Gdy w kółko recytujesz słowa, amulet wreszcie zaczyna świecić. Aura przechodzi z ognia do amuletu. Teraz masz szansę.
+EventFillPass.button1,{qst:Continue}
+EventAttemptFill.text,Trzymasz otwarty amulet w ogniu i recytujesz słowa, które usłyszałeś od kolekcjonera, mając nadzieję, że napełnisz amulet mocą. Rozwiąż łamigłówkę za pomocą {lore}.
+EventDestroyPair.button1,{action} Wrzuć oba przedmioty do ognia
+EventDestroyPair.button2,{action} Przebij amulet sztyletem
+EventDestroyPair.button3,{action} Zabierz sztylet jako dowód
+EventGetBurnt.button1,{qst:Continue}
+EventGetBurnt.text,Rzucasz oba przedmioty w ogień, czekając aż płomienie je pochłonął, ale nic się nie dzieje. Szybko zdajesz sobie sprawę, że to nie działa. Pośpiesznie sięgniesz do ognia, by chwycić przedmioty, zanim będzie za późno. Otrzymujesz 2 zakryte karty Obrażeń ({agility} zapobiega).
+EventAttemptDestoryPair.button1,{qst:Continue}
+EventAttemptDestoryPair2.text,Bierzesz głęboki oddech i zbierasz całą swoją odwagę, mając nadzieję, że postępujesz właściwie. Amulet emanuje ogromną energią. Modlisz się, żebyś niezależnie od tego co za chwilę się stanie, przeżył. Wykonaj test {will}.
+EventAttemptDestoryPair2.button1,{qst:Continue}
+EventAttemptDestoryPair2.button2,Porażka
+EventAttemptDestoryPair3.text,Bierzesz głęboki oddech i zbierasz całą swoją odwagę, mając nadzieję, że postępujesz właściwie. Amulet emanuje ogromną energią. Modlisz się, żebyś niezależnie od tego co za chwilę się stanie, przeżył. Wykonaj test {will}.
+EventAttemptDestoryPair3.button1,{qst:Continue}
+EventAttemptDestoryPair3.button2,Porażka
+EventAttemptDestoryPair4.text,Bierzesz głęboki oddech i zbierasz całą swoją odwagę, mając nadzieję, że postępujesz właściwie. Amulet emanuje ogromną energią. Modlisz się, żebyś niezależnie od tego co za chwilę się stanie, przeżył. Wykonaj test {will}.
+EventAttemptDestoryPair4.button1,{qst:Continue}
+EventAttemptDestoryPair4.button2,Porażka
+EventAttemptDestoryPair5.text,Bierzesz głęboki oddech i zbierasz całą swoją odwagę, mając nadzieję, że postępujesz właściwie. Amulet emanuje ogromną energią. Modlisz się, żebyś niezależnie od tego co za chwilę się stanie, przeżył. Wykonaj test {will}.
+EventAttemptDestoryPair5.button1,{qst:Continue}
+EventAttemptDestoryPair5.button2,Porażka
+EventFirePlaceMain.text,Wiedząc, że amulet wymaga źródła energii do zasilenia ostrza, masz nadzieję, że możesz naładować go ogniem. Badacz posiadający Przedmiot powszechny 2x4 Belka i Przedmiot powszechny Szczęśliwa papierośnica lub znajdujący się na tym samym polu, co Badacze posiadający te przedmioty, może spróbować rozpalić ogień.
+EventFirePlaceMain.button2,Anuluj
+EventTakeDagger.text,Obawiasz się, że zniszczenie sztyletu zakończy śledztwo w sprawie śmierci twojego partnera. Poznanie prawdy to jedno, udowodnienie, to zupełnie inna sprawa.\n\n Dochodzenie zostało zakończone.
+EventSpeak3.button1,<i>{action} Jak zostałeś uwięziony?</i>
+EventSpeak3.text,William próbuje ci pomóc po raz ostatni nim jego energia całkowicie wygaśnie.
+EventSpeak3.button2,Anuluj
+EventSpeak2.button2,Anuluj
+EventDestroyPair.button4,Anuluj
+EventTakeDagger.button1,{qst:Continue}
+TokenCrystalBall.text,Na wystawie sklepowej znajduje się kilka przedmiotów.
+PuzzleCrystalBall.button1,Zakończ
+TokenCrystalBall.button1,{action} Przeszukaj
+EventAttemptCBPuzzle.text,Patrząc na przedmioty, znajdujesz coś interesującego, ale nie możesz dokładnie określić, co to ma być. Spróbuj rozwiązać zagadkę za pomocą {lore}.
+EventAttemptCBPuzzle.button1,{qst:Continue}
+EventAbsorbEnergy.button2,Anuluj
+EventViewPast.text,Podczas sprawdzania przedmiotów zauważysz, że szklana kula powoli zaczyna emitować delikatny niebieski blask. Widzisz ruch w kryształowej kuli. Świat wydaje się ogarniać mrok, gdy twój umysł zostaje wchłonięty przez wizję.
+EventViewPast.button1,{qst:Continue}
+EventPlaceMarket.text,Wokół ciebie tworzy się mgła, a ty czujesz, że unosisz się w chmurach.
+EventPlaceMarket.button1,{qst:Continue}
+EventRemoveBlack.text,Bez ostrzeżenia w oddali formuje się jakaś postać.
+EventRemoveBlack.button1,{qst:Continue}
+EventRemoveMist.text,{qst:Continue}
+EventRemoveMist.button1,{qst:Continue}
+EventCollectorEnters.button1,{qst:Continue}
+EventCollectorMoves.text,Kolekcjoner przenosi się do jednej z budek na rynku. Starzec podchodzi, by go powitać. To musi być kupiec.
+EventCollectorEnters.text,Na rynek wchodzi jakaś postać. Wygląda na kolekcjonera.
+EventCollectorMoves.button1,{qst:Continue}
+EventPartnerEnters.text,Kolejna postać wchodzi za jedną z budek. Wygląda jak twój były partner. Musiał śledzić kolekcjonera.
+EventPartnerEnters.button1,{qst:Continue}
+EventSell.text,"Podczas gdy mężczyźni kontynuują rozmowę, kupiec odsłania pudełko, dyskretnie przesuwając je po stole do kolekcjonera.<i> ""Tego właśnie szukałeś""</i>, szepcze do kolekcjonera z lekkim uśmieszkiem. Ten powoli otwiera pudełko, żeby zajrzeć do środka. <i>""Nie rozumiem. Dlaczego musisz je sprzedawać razem?""</i> Kupiec wskazuje na przedmioty <i>""Nie mogę ci tego dokładnie wyjaśnić. Zamiast tego pokażę ci""</i>, mówi, biorąc amulet z pudełka."
+EventSell.button1,{qst:Continue}
+EventViewPastMain.button1,{qst:Continue}
+EventCombo1Answer.text,"Kupiec wręczył kolekcjonerowi niewielką notatkę. Wydaje się, że jest to mała łamigłówka. <i>""Jeśli kolor jest liczbą, a liczba jest sekwencją, kolejność kolorów wynosiłaby: 1 + 2 = 3, a połowa 4 to 2, ale nie 1""</i> \n\n Na odwrocie notatki jest mały diagram.\n\n Co to może oznaczać?"
+EventCombo1Answer.button1,{qst:Continue}
+EventCombo2Answer.text,"William podchodząc bliżej, jest w stanie zobaczyć notatkę nad ramieniem kolekcjonera. \n\n Jest na niej napisane: <i>""Proszę Cię Nie Zapomnij""</i>.\n\n Co to oznacza?"
+EventCombo2Answer.button1,{qst:Continue}
+EventCombo3Answer.text,"Kiedy William podchodzi bliżej, jest w stanie zobaczyć notatkę nad ramieniem kolekcjonera, którą kupiec wręcza kolekcjonerowi. Jest to zdjęcie, na odwrocie którego jest napisane \n\n <i>""Upewnij się, że trzymasz go do góry nogami""</i> \n\n Co to może oznaczać?"
+EventCombo3Answer.button1,{qst:Continue}
+EventPassesNote.button1,{qst:Continue}
+EventPassesNote.text,"Za pomocą kilku prostych kliknięć amulet otwiera się. Dziwna aura emituje z urządzenia i obejmuje ostrze. <i>""Powiedziałem ci""</i>, mówi kupiec, podając świecące przedmioty kolekcjonerowi. <i>""Nie wierzę! Więc wszystko, co przeczytałem, jest prawdą?""</i>, pyta kolekcjoner z zachwytem przyglądając się przedmiotowi. <i>""A nawet więcej...""</i>, odpowiada handlarz sięgając po kawałek papieru i pisząc coś na nim. Następnie przekazuje notatkę kolekcjonerowi. <i>""Nie zgub tego! To klucz do odblokowania jego mocy.""</i>"
+EventCollectorKills.text,"Gdy kolekcjoner zachwyca się mocą ostrza i amuletu, kupiec podnosi wzrok, <i>""Kto to jest? Ktoś nas obserwuje!""</i>. Kolekcjoner odwraca się i wzrokiem odnajduje twojego starego partnera. Szybko rzuca się w jego stronę i zanurza sztylet w klatce piersiowej Williama, jakby opętany. William osuwa się na ziemię, gdy esencja jego życia wydaje się wypływać z jego oczu i ust. Strumień płynie w kierunku amuletu, nie mogąc uciec przed pozorną próżnią."
+EventCollectorKills.button1,{qst:Continue}
+EventFadeOut.text,Gdy energia twojego starego partnera zanika, czujesz, że wizja również zaczyna zanikać.
+EventFadeOut.button1,{qst:Continue}
+EventFadeBlack2.text,Wizja w końcu odeszła i czujesz, że zaczynasz wracać do rzeczywistości.
+EventFadeBlack2.button1,{qst:Continue}
+EventReturn.text,Wracasz z wizji z nowymi informacjami na temat tego, co stało się z twoim partnerem. Zdobądź Unikalny przedmiot Elementy rytuału, 1 {clue} wskazówkę i usuń ten znacznik Przeszukania. Możesz wchodzić w interakcję z Unikalnym przedmiotem Elementy rytuału w Ekwipunku w aplikacji.
+EventReturn.button1,{qst:Continue}
+EventReviewAnswer.text,Możesz przejrzeć odpowiedź, którą znalazłeś w swojej wizji.
+EventReviewAnswer.button1,{qst:Continue}
+EventReviewAnswer1.text,"Kupiec wręczył kolekcjonerowi niewielką notatkę. Wydaje się, że jest to mała łamigłówka. <i>""Jeśli kolor jest liczbą, a liczba jest sekwencją, kolejność kolorów wynosiłaby: 1 + 2 = 3, a połowa 4 to 2, ale nie 1""</i> \n\n Na odwrocie notatki jest mały diagram.\n\n Co to może oznaczać?"
+EventReviewAnswer1.button1,{qst:Continue}
+EventReviewAnswer2.text,"Handlarz wręczył niewielką notatkę kolekcjonerowi. \n\n Jest na niej napisane: <i>""Proszę Cię Nie Zapomnij""</i> \n\n Co to może oznaczać?"
+EventReviewAnswer2.button1,{qst:Continue}
+EventReviewAnswer3.text,"Kupiec wręczył kolekcjonerowi niewielką notatkę. Napis na odwrocie brzm: \n\n <i>""Upewnij się, że trzymasz go do góry nogami""</i> \n\n Co to może oznaczać?"
+EventReviewAnswer3.button1,{qst:Continue}
+EventDestroyedPair.text,Odwracasz głowę i zamykasz oczy, zanurzając ostrze w amulecie. Podmuch światła migocze przez sekundę, po czym znika. Masz nadzieję, że moc, która pochłonęła ostrze i amulet, została na dobre zniszczona. Oddychasz z ulgą i wylewasz ostatnią łzę za swojego partnera, Williama.\n\n Dochodzenie zostało zakończone sukcesem.
+EventDestroyedPair.button1,{qst:Continue}
+UIButtonTxtEnd.uitext,{qst:Continue}
+UIEndTxt.uitext,"Mimo dokonania samosądu, masz wrażenie, że to był jedyny sposób na wymierzenie sprawiedliwości, ta myśl trochę uspokaja twoje sumienie. Wciąż zmagasz się ze wspomnieniami tamtej nocy, wiedząc, że sprawa nigdy nie zostanie do końca rozwiązana, a bliscy twojego partnera nigdy w pełni nie poznają prawdy. Za każdym razem kiedy mijasz ich dom chcesz im wszystko opowiedzieć, ale nie masz odwagi. \n\n Miesiące mijają i choć wydaje się, że powoli odzyskujesz psychiczną równowagę i w końcu wychodzisz z traumy, to wiesz, że nic już nie będzie takie jak wcześniej. Butelka wydaje się być jedyną ucieczką od tamtych wydarzeń i nękających cię wizji. \n\n Pewnego wieczoru znajomy mężczyzna podchodzi do ciebie w barze. Szybko zyskuje twoją uwagę, gdy zaczyna mówić o amulecie i sztylecie. Twoje oczy przesuwają się z kieliszka na starego kupca. Ze strachem w głosie mówi:<i>""Nie wiedziałem, naprawdę, nie miałem pojęcia. Ale… Przyszedłem ci powiedzieć.. istnieją jeszcze inne.""</i> Tępo patrzysz w butelkę pustym spojrzeniem, oszołomiony jego słowami. Podnosząc głowę, by odpowiedzieć starcowi, widzisz.. nikogo. Nikogo tam nie ma, tylko ty, samotny pijak na skraju szaleństwa."
+UIButtonTxtEnd.button1,Button1
+UIEndTakeBladeTxt.uitext,Kilka miesięcy po wydarzeniach tamtej nocy w domu kolekcjonera zostaliście uhonorowani za swoją rolę w uratowaniu dziewczyny i znalezieniu zabójcy twojego partnera. Nagrody i medale nie są jednak w stanie załagodzić twojego cierpienia i przerażenia, spowodowanego tym co wtedy się wydarzyło.\n\n Od miesięcy nie możesz w spokoju zasnąć i nie chcesz widzieć starych przyjaciół ani swojej rodziny. Często siedzisz, patrząc obojętnie w pustkę, nic cię już nie interesuje... z wyjątkiem mocy tego ostrza, której byłeś świadkiem. Ta myśl pochłania twój umysł dzień i noc, wołając do ciebie ... swojego nowego mistrza.
+EventMaidAnswers.button2,Porażka
+UIDiedTxt.uitext,W miarę jak okropności ogarniają innych badaczy, uciekasz z domu, obawiając się o swoje życie i zdrowie psychiczne. Moce, które znalazłeś w tamtym miejscu, są zbyt potężne, żebyś mógł je pokonać.\n\n Każdej następnej nocy wyglądasz przez okna swojego mieszkania, bojąc się wyjść na zewnątrz. Wiesz, że te okropności wciąż tam są i jest to tylko kwestią czasu, zanim staniesz się ich następną ofiarą.
+UIKilledCreatureTxt.uitext,Gdy poziom adrenaliny opada w twoim organizmie, zaczynasz zdawać sobie sprawę, że biedna dziewczyna nie żyje. Odtwarzając wydarzenia w swojej głowie, zastanawiasz się i próbujesz znaleźć coś, co mógłbyś był zrobić lepiej, by zapobiec tej tragedii. Nagle zostajesz wyrwany z oszołomienia, gdy policja wyważa drzwi.\n\n Tłumaczyłeś im i błagałeś, ale nikt nie słuchał, nawet ława przysięgłych. Nie było ich tam. Nie widzieli tej strasznej istoty. Choć lekarze powtarzają ci w kółko, że to co widziałeś nigdy się nie wydarzyło, odmawiasz zmiany swojej wersji wydarzeń, nawet jeśli będziesz miał pozostać w tej celi do końca swojego życia.
+EventDestroyAmuletFail.text,Zbierasz w sobie odwagę, ale to nie wystarczy. Musisz dalej próbować, jeśli chcesz zniszczyć te przedmioty.
+EventDestroyAmuletFail.button1,{qst:Continue}
+EventStudyJournal.text,Stary dziennik zawiera opisy przedmiotów, które kolekcjoner zebrał przez lata. Badacz posiadający Unikatowy przedmiot Stary dziennik może wejść z nim w interakcję w Ekwipunku w aplikacji.
+quest.authors,Autor: Sly Cozz \n\n Poprawki: Matt Hanf \n\n Tłumaczyli: \n chrismaliszewski \n zcaalock \n\n Czyta: Wojtek Masiak
+EventKillCreature.button1,{qst:Continue}
+EventKillCreature.text,Bestia upada na ziemię bez życia. Jej ciało powoli zamienia się w popiół, który unosi się w powietrzu, łącząc się w jedną całość i płynąc z powrotem do portalu ... a następnie znika. Twoje zwycięstwo jest jednak krótkotrwałe, wiedząc, że ten nieziemski portal wciąż może zostać ponownie otwarty. Jakie inne demoniczne pomioty mogą z niego wyjść następnym razem?\n\n Śledztwo jest zakończone.
+TokenLockedStore.text,Sklep wieczorem jest zamknięty. Musisz znaleźć inny sposób, by dostać się do środka.
+TokenLockedStore.button1,{qst:Continue}
+SpawnCreatureNotFreed.text,Zakończenie ofiary skutkuje pojawieniem się silnego pola elektrycznego otaczającego ciało dziewczyny. Pole okazuje się tworzyć okno do innego świata. Z jej ramienia wystrzeliwuje pazur, a drugi przebija jej żołądek. Przerażające stworzenie powoli rozrywa jej ciało, gdy wchodzi do naszego świata. Umieść Gwiezdny Pomiot w tym samym polu, co żeton osoby Pomarańczowa Kobieta, a następnie usuń ten żeton.
+SpawnCreatureNotFreed.button1,{qst:Continue}
+EventLookOverAmulet.text,Dziennik wspomina, że amulet można odblokować za pomocą kombinacji, ale wydaje się, że nie ma oczywistego sposobu na jego otwarcie.
+EventLookOverAmulet.button1,{action} Zbadaj Amulet
+EventLookOverAmulet.button2,Anuluj
+EventCollectorAttacksGirlHidden.button1,{qst:Continue}
+EventCollectorAttacksGirlHidden.text,Kolekcjoner porusza się o 2 pola w kierunku najbliższego Badacza, a następnie atakuje Badaczy znajdujących się w zasięgu.
+EventCollectorAttacksGirlHidden.button2,Nie można zaatakować
+EventBladeAttacksGirlHidden.button1,{qst:Continue}
+EventReviewAnswer3.button2,<i>Pokaż odpowiedź</i>
+EventRevealAnswers.text,To da ci podpowiedź do zagadki, jeśli utkniesz. Podpowiedź powinna zostać ujawniona tylko wtedy, gdy jesteś absolutnie pewien, że nie chcesz już próbować rozwiązać zagadki. Czy na pewno chcesz to zrobić?
+EventRevealAnswers.button1,<i>Tak! Pokaż odpowiedź</i>
+EventRevealAnswers.button2,<i> Nie. Nie psuj zagadki.</i>
+EventAnswer1.text,Liczby reprezentują kolory. Jeśli dodasz do siebie kolory, otrzymasz następny kolor. Jeśli dodasz niebieski i czerwony, otrzymasz purpurowy. Oznacza to, że purpurowy musi być trzecim przyciskiem w kombinacji. To również mówi nam, że niebieski i czerwony są przyciskami 1 i 2, ale nie znamy ich jeszcze kolejności. Wreszcie wiemy, że zielony jest wykonany z żółtego i niebieskiego. Ponieważ jako opcje mamy tylko kolor niebieski, oznacza to, że niebieski jest drugim przyciskiem, a zielony jest czwartym\n\n. Ostateczna kombinacja to: czerwony - niebieski - purpurowy - zielony
+EventAnswer1.button1,{qst:Continue}
+EventAnswer2.text,"Zdanie zawiera kilka słów napisanych za pomocą wielkiej litery. Wielkie litery każdego słowa odpowiadają kolorowi i kolejności kombinacji. Zdanie zaczyna się słowem <i>""Proszę""</i> napisanym wielką literą <i>""P""</i>, tak więc pierwszym przyciskiem w kombinacji jest Purpurowy. \n\n Ostateczna kombinacja to: \nPurpurowy - Czerwony - Niebieski - Zielony"
+EventAnswer2.button1,{qst:Continue}
+EventAnswer3.text,Notatka mówi, aby upewnić się, że trzymasz go do góry nogami. Jeśli odwrócisz amulet do góry nogami, zielony powinien znajdować się na górze, niebieski i czerwony po bokach, a purpurowy na środku. Postępuj zgodnie ze schematem i potraktuj zielony przycisk jako głowę, purpurowy jako klatkę piersiową, a czerwony i niebieski jako ramiona.\n\nOstateczna kombinacja to:\nn Zielony - Purpurowy - Czerwony - Niebieski
+EventAnswer3.button1,{qst:Continue}
+EventReviewAnswer2.button2,<i>Pokaż odpowiedź</i>
+EventReviewAnswer1.button2,<i>Pokaż odpowiedź</i>
+TokenGirlDead.text,Biedna dziewczyna nie żyje.
+TokenGirlDead.button1,{qst:Continue}
+EventPriestAttacksRescuedGirl.button1,Odpraw rytuał
+EventPriestAttacksRescuedGirl.button2,Nie może być na tym samym polu
+EventPriestAttacksRescuedGirl.text,Kolekcjoner porusza się do 2 pól, aby znajdować się w tym samym miejscu co dziewczyna, aby kontynuować rytuał.
+EventMenRun.text,Pozostali mężczyźni krzyczą z przerażenia, gdy kolekcjoner jest rozdzierany na strzępy i pożerany. Szybko rzucają się do drzwi, mając nadzieję na ocalenie własnego życia. Usuń żetony osób Żółty i Fioletowy Mężczyzna.
+EventMenRun.button1,{qst:Continue}
+EventCombo1Hint.button1,{qst:Continue}
+EventCombo2Hint.button1,{qst:Continue}
+EventCombo1Hint.text,Gdy wyciągasz dziennik z półki, zauważasz, że z pomiędzy stronami jest mały kawałek papieru. Nie możesz tego zrozumieć. Być może został użyty tylko jako zakładka. Zdobywasz 1 {clue} wskazówkę.
+EventCombo3Hint.text,Gdy wyciągasz dziennik z półki, zauważasz, że z pomiędzy stronami jest mały kawałek papieru. Nie możesz tego zrozumieć. Być może został użyty tylko jako zakładka. Zdobywasz 1 {clue} wskazówkę.
+EventCombo2Hint.text,Gdy wyciągasz dziennik z półki, zauważasz, że z pomiędzy stronami jest mały kawałek papieru. Nie możesz tego zrozumieć. Być może został użyty tylko jako zakładka. Zdobywasz 1 {clue} wskazówkę.
+EventCombo3Hint.button1,{qst:Continue}
+EventReviewNotes.text,Przejrzyj notatki Williama Drake'a, aby sprawdzić, czy możesz znaleźć coś, co pomoże rozwiązać sprawę jego morderstwa.
+EventReviewNotes.button1,{action} Przeczytaj
+EventNotesEntry1.text,"Otwierasz mały notatnik i odnajdujesz wpisy swojej ostatniej sprawy. <i>""Wtorek, 25 października""</i>, zaledwie sześć dni temu.\n\n <i>""Otrzymałem telefon ostatniej nocy, około 21:43. Kobieta, Patty Henson, była zrozpaczona i błagała o pomoc. Jej córka, Cynthia, nie wróciła do domu po kolacji z przyjaciółmi.""</i>\n\n <i>""Środa, 26 października""\n""Przyjaciółki Cynthii powiedziały, że poszły razem do 'Bistro Kathy' na hamburgery i koktajle mleczne. Kiedy wyszły, szły razem niemal do samego końca. Dom Cynthii znajduje się zaledwie trzy przecznice od miejsca, w którym grupa się rozdzieliła.""</i>"
+EventNotesEntry1.button1,{action} Czytaj dalej
+EventNotesEntry2.text,"<i>""Czwartek, 27 października. Zdecydowałem się przeczesać trzy bloki, w okolicy których była ostatnio widziana. Większość ludzi wydaje się być niechętna by pomóc, a czasem nawet zgorszona moimi pytaniami. Udało mi się wypytać starszą kobietę, Jenny Hudson, która mieszka na rogu ulicy. Pamiętała dziewczęta, ponieważ śmiały się i chichotały dość głośno budząc panią Hudson. Ponadto widziała kogoś kto szedł za nimi. Gdy dziewczyny rozeszły się do swoich domów, nieznajomy wszedł w uliczkę po prawo, w którą chwilę wcześniej skręciła jedna z dziewczyn, Cynthia. Miała zamiar zadzwonić po policję, kiedy jakiś dżentelmen podszedł do niej i odpędził nieznajomego. Na jej twarzy było widać ulgę, gdy mężczyzna postanowił ją odprowadzić. Opisała go jako starszego dżentelmena prawdopodobnie z wyższych sfer mając na względzie ładny garnitur i buty, które miał na sobie.""</i> \n\n <i>""Piątek, 28 października. Dziś wracam do domu pani Hudson, aby zbadać róg ulicy, gdzie Cynthia była ostatnio widziana, mając nadzieję, że kobieta pomoże mi zidentyfikować mężczyznę, który odprowadzał dziewczynę. Po kilku godzinach w końcu wskazuje mężczyznę, którego uważa za tę samą osobę. 20:22, śledziłem dżentelmena przez kilka bloków i wygląda na to, że zmierzał na rynek. Wydaje się to dziwne, ponieważ ten jest zazwyczaj zamknięty o tak późnej godzinie. Prawdopodobnie powinienem podejść bliżej, aby zobaczyć, co robi.""</i>"
+EventBroughtNotes.text,Twój partner, William Drake, robił notatki podczas swoich śledztw. Wziąłeś je sobą mając nadzieję znaleźć coś, co mogłoby pomóc w rozwiązaniu jego morderstwa. Badacz otrzymuje unikalny przedmiot Obciążający Dowód. Badacz niosący ten przedmiot może wchodzić z nim w interakcję w Ekwipunku w aplikacji.
+EventBroughtNotes.button1,{qst:Continue}
+EventReviewNotes.button2,Anuluj
+EventNotesEntry2.button1,{qst:Continue}
+EventNoMorePages.text,Przeglądasz pozostałe strony, ale nie ma już innych wpisów. Zyskujesz 1 {clue} wskazówkę.
+EventNoMorePages.button1,{qst:Continue}
+EventNotesEntry1.button2,Anuluj
+SpawnGhost1.text,Czujesz przeszywający chłód, gdy we foyer zaczyna tworzyć się mgła. Złe duchy uwolnione z amuletu są rozgniewane, gdy zdają sobie sprawę do czego zmierzasz. Umieść Ducha, jak wskazano.
+SpawnGhost1.button1,{qst:Continue}
+SpawnGhost2.text,W domu pojawia się kolejna zjawa. Nie możesz pozwolić, by cię to powstrzymało. Umieść Ducha, jak wskazano.
+SpawnGhost2.button1,{qst:Continue}
+EventStudyJournalMain.button1,Button1
+quest.synopsys,Tajemnicze morderstwo twojego partnera staje się powodem poszukiwania każdego, kto próbuje sprzedać podejrzany nóż.
+quest.authors_short,Sly Cozz
+Continue,Kontynuuj
